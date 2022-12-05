@@ -1,0 +1,42 @@
+<header class="header">
+	<div class="header__container container">
+		<a class="header__logo" href="#">
+			<picture>
+				<source srcset="@img/logo.svg" media="(min-width: 576px)" />
+				<img loading="lazy" src="@img/logo-mobile.svg" alt="Логотип" />
+			</picture>
+		</a>
+		<div class="header__menu" data-menu>
+			<nav class="header__nav nav" title="Меню">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a class="nav__link active" href="#">Главная</a>
+					</li>
+					<li class="nav__item"><a class="nav__link" href="#">Каталог</a></li>
+					<li class="nav__item">
+						<a class="nav__link" href="#">Как заказать</a>
+					</li>
+					<li class="nav__item"><a class="nav__link" href="#">Отзывы</a></li>
+					<li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+					<li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<a class="header__phone" href="tel:79280761498">+7 928 076 14 98</a>
+			<button
+				class="header__callback btn-reset btn btn--blue"
+				data-graph-path="callback"
+				data-graph-speed="200"
+			>
+				Заказать обратный звонок
+			</button>
+		</div>
+		<button
+			class="header__burger btn-reset burger"
+			aria-label="Открыть меню"
+			aria-expanded="false"
+			data-burger
+		>
+			<span class="burger__line"></span>
+		</button>
+	</div>
+</header>

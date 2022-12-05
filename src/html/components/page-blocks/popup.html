@@ -1,0 +1,71 @@
+<div class="graph-modal">
+	<!-- Callback popup -->
+	<div
+		class="graph-modal__container popup"
+		role="dialog"
+		aria-modal="true"
+		data-graph-target="callback"
+	>
+		<button
+			class="btn-reset graph-modal__close js-modal-close"
+			aria-label="Закрыть модальное окно"
+		></button>
+		<div class="graph-modal__content">
+			<h2 class="popup__title section-title section-title--blue">
+				Свяжитесь с нами
+			</h2>
+			<p class="popup__descr">
+				Оставьте свои контактные данные, чтобы наш менеджер смог связаться
+				с вами в ближайшее время.
+			</p>
+			<form class="popup__form form" action="#">
+				<label class="form__label">
+					<input
+						class="form__input input-reset input-name"
+						type="text"
+						name="name"
+						placeholder="Имя"
+					/>
+				</label>
+				<label class="form__label">
+					<input
+						class="form__input input-reset input-email"
+						type="email"
+						name="email"
+						placeholder="Эл. почта"
+					/>
+				</label>
+				<label class="form__label">
+					<input
+						class="form__input input-reset input-tel"
+						type="tel"
+						name="tel"
+						data-tel-input
+						maxlength="18"
+						placeholder="Телефон"
+					/>
+				</label>
+				<button class="form__btn btn-reset btn btn--blue">Отправить</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Success popup -->
+	<div
+		class="graph-modal__container popup"
+		role="dialog"
+		aria-modal="true"
+		data-graph-target="success"
+	>
+		<button
+			class="btn-reset graph-modal__close graph-modal__close--success js-modal-close"
+			aria-label="Закрыть модальное окно"
+		></button>
+		<div class="graph-modal__content">
+			<h2 class="popup__title section-title section-title--blue">Успешно!</h2>
+			<button class="popup__btn btn-reset btn btn--blue js-modal-close">
+				Закрыть
+			</button>
+		</div>
+	</div>
+</div>

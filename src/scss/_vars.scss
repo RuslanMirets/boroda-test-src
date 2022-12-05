@@ -1,0 +1,14 @@
+// Базовы переменные
+$font-family: "OpenSans";
+$content-width: 1240px;
+$container-offset: 15px;
+$container-width: calc($container-offset * 2 + $content-width);
+
+// Цвета
+$white-color: #fff;
+$black-color: #000;
+$gray-color: #8c8c8c;
+$gray-light-color: #dedede;
+$text-color: #2a2a2a;
+$blue-color: #1946ba;
+$blue-hover-color: rgba(25, 71, 186, 0.8);

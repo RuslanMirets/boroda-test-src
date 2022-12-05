@@ -1,0 +1,56 @@
+.graph-modal__close {
+	right: 30px;
+	top: 50px;
+	width: 18px;
+	height: 18px;
+	background-image: url("@img/close.svg");
+
+	&--success {
+		right: 30px;
+		top: 20px;
+	}
+
+	@media (max-width: 575px) {
+		right: 20px;
+		top: 20px;
+	}
+}
+
+.popup {
+	border-radius: 0;
+	padding: 20px 60px 40px 40px;
+	max-width: 610px;
+
+	&__title {
+		margin-bottom: 30px;
+
+		@media (max-width: 575px) {
+			margin-bottom: 20px;
+		}
+	}
+
+	&__descr {
+		margin-bottom: 15px;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 25px;
+		color: $text-color;
+
+		@media (max-width: 575px) {
+			margin-bottom: 20px;
+		}
+	}
+
+	&__form {
+		max-width: 465px;
+	}
+
+	&__btn {
+		width: 100%;
+		max-width: 290px;
+	}
+
+	@media (max-width: 575px) {
+		padding: 40px 20px;
+	}
+}
